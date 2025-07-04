@@ -15,8 +15,8 @@ function love.load()
     font = love.graphics.newFont("DejaVuSansCondensed-Bold.ttf", 18)
     love.graphics.setFont(font)
 
-    button1 = {x = 100, y = 100, w = 200, h = 50, text = "Eliminacja"}
-    button2 = {x = 310, y = 100, w = 200, h = 50, text = "Zrównoleglanie"}
+    button1 = {x = 100, y = 100, w = 200, h = 50, text = "Zrównoleglanie"}
+    button2 = {x = 310, y = 100, w = 200, h = 50, text = "Eliminacja"}
     button3 = {x = 520, y = 100, w = 200, h = 50, text = "Podstawienie"}
 
     input_active = false
